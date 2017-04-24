@@ -1,0 +1,86 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: New_Node_2 New_Node_1
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ New_Signal_14 : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_8 : 0|32@1- (1,0) [0|32] "" Vector__XXX
+
+BO_ 2 New_Message_4: 6 Vector__XXX
+ SG_ New_Signal_7 : 48|32@1- (1,-6) [0|2] "" Vector__XXX
+ SG_ New_Signal_8 : 16|32@1- (1,0) [0|32] "" Vector__XXX
+ SG_ New_Signal_9 : 0|16@1- (1,0) [0|453] "" Vector__XXX
+
+BO_ 1 New_Message_3: 8 New_Node_1
+ SG_ New_Signal_4 : 63|8@1- (3,0) [0|32434] "" Vector__XXX
+ SG_ New_Signal_9 : 63|16@1- (1,0) [0|453] "" Vector__XXX
+ SG_ New_Signal_8 : 63|32@1- (1,0) [0|32] "" Vector__XXX
+ SG_ New_Signal_5 : 48|16@1- (1,-4) [0|324325] "" Vector__XXX
+ SG_ New_Signal_6 : 8|8@1- (4,4) [0|3456] "" Vector__XXX
+ SG_ New_Signal_10 : 16|32@1- (1,-7) [0|34] "asdasfs" Vector__XXX
+ SG_ New_Signal_1 : 0|8@1- (1,0) [0|0] "qqqqqqqqq" Vector__XXX
+
+BO_ 2147483648 New_Message_1: 8 New_Node_1
+ SG_ New_Signal_7 : 32|32@1- (1,-6) [0|2] "" Vector__XXX
+ SG_ New_Signal_4 : 8|8@1- (3,0) [0|32434] "" Vector__XXX
+ SG_ New_Signal_3 : 16|16@1- (2,0) [0|1] "" Vector__XXX
+ SG_ New_Signal_1 : 0|64@1- (1,0) [0|0] "asda" Vector__XXX
+
+
+
+EV_ New_Variable_2: 0 [0|0] "" 0 1 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ New_Variable_1: 0 [0|0] "" 0 2 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 2147483648 New_Signal_1 "dgdxfgcfg";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+SIG_VALTYPE_ 2147483648 New_Signal_1 : 2;
+
